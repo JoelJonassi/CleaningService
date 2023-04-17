@@ -3,6 +3,7 @@
 <head>
 	<title>Serviços de Limpeza</title>
 	<style>
+
 		body {
 			font-family: Arial, sans-serif;
             background-image: url("clean.jpeg");
@@ -69,6 +70,27 @@
 			background-color: #666;
 
 		}
+
+		.service {
+		flex-basis: 100%;
+		margin-bottom: 20px;
+		}
+		@media (min-width: 768px) {
+	.service {
+		flex-basis: 250px;
+		margin-right: 20px;
+		margin-bottom: 0;
+	}
+	.service:last-child {
+		margin-right: 0;
+	}
+	h1 {
+		font-size: 60px;
+	}
+	p {
+		font-size: 24px;
+	}
+}
 	</style>
 </head>
 <body>
